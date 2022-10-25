@@ -24,7 +24,7 @@ h1{
 }
 .Top-Header{
   position: relative;
-  padding-top: 205px;
+  padding-top: 370px;
   background-color: #7895B2;
   /* height: 1190px; */
 
@@ -137,8 +137,18 @@ hr{
   width: 15%;
   -webkit-transform:rotate(300deg);
 } */
-.card{
+.card1{
   margin: auto;
+  display: inline-block;
+  position: relative;
+  /* left: 50px; */
+  right: 20px;
+}
+.card2{
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  left: 20px;
 }
 .progress-bar {
     display: flex;
@@ -173,4 +183,9 @@ hr{
 }
 .Middle-Header{
   background-color:#D6EAF8;
+}
+.card-body2{
+  display:inline-block;
+  position: relative;
+  left: 200px;
 }
